@@ -18,6 +18,7 @@
 		415FE08B1C7C3E6500FB237C /* group1.png in Resources */ = {isa = PBXBuildFile; fileRef = 415FE0891C7C3E6500FB237C /* group1.png */; };
 		415FE08C1C7C3E6500FB237C /* group2.png in Resources */ = {isa = PBXBuildFile; fileRef = 415FE08A1C7C3E6500FB237C /* group2.png */; };
 		415FE0921C7C3EDF00FB237C /* MaskAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 415FE0911C7C3EDF00FB237C /* MaskAnimation.m */; };
+		417141721C7D37440067321F /* 动画.gif in Resources */ = {isa = PBXBuildFile; fileRef = 417141711C7D37440067321F /* 动画.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		415FE08A1C7C3E6500FB237C /* group2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group2.png; sourceTree = "<group>"; };
 		415FE0901C7C3EDF00FB237C /* MaskAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaskAnimation.h; path = ../MaskAnimation.h; sourceTree = "<group>"; };
 		415FE0911C7C3EDF00FB237C /* MaskAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaskAnimation.m; path = ../MaskAnimation.m; sourceTree = "<group>"; };
+		417141711C7D37440067321F /* 动画.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动画.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				415FE0851C7C3B7B00FB237C /* ViewController.m */,
 				415FE0901C7C3EDF00FB237C /* MaskAnimation.h */,
 				415FE0911C7C3EDF00FB237C /* MaskAnimation.m */,
+				417141711C7D37440067321F /* 动画.gif */,
 				415FE0891C7C3E6500FB237C /* group1.png */,
 				415FE08A1C7C3E6500FB237C /* group2.png */,
 				415FE0871C7C3CB500FB237C /* Main.storyboard */,
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				415FE0881C7C3CB500FB237C /* Main.storyboard in Resources */,
+				417141721C7D37440067321F /* 动画.gif in Resources */,
 				415FE05C1C7C3B1300FB237C /* Assets.xcassets in Resources */,
 				415FE05F1C7C3B1300FB237C /* LaunchScreen.storyboard in Resources */,
 				415FE08B1C7C3E6500FB237C /* group1.png in Resources */,
@@ -504,6 +508,7 @@
 				415FE07B1C7C3B1300FB237C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		415FE07C1C7C3B1300FB237C /* Build configuration list for PBXNativeTarget "图片填充Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				415FE07E1C7C3B1300FB237C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		415FE07F1C7C3B1300FB237C /* Build configuration list for PBXNativeTarget "图片填充UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				415FE0811C7C3B1300FB237C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
