@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49Y-Qj-aI4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4TN-7f-m9b">
+            <objects>
+                <viewController id="49Y-Qj-aI4" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PRc-C0-ady"/>
+                        <viewControllerLayoutGuide type="bottom" id="s6u-uA-yPu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cdC-zv-AC8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6md-7c-gHa">
+                                <rect key="frame" x="145" y="106" width="30" height="30"/>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <action selector="startFillAnimation:" destination="49Y-Qj-aI4" eventType="touchUpInside" id="qMQ-zW-XVa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTY-Kg-EZ0">
+                                <rect key="frame" x="145" y="160" width="30" height="30"/>
+                                <state key="normal" title="暂停"/>
+                                <connections>
+                                    <action selector="pasueFillAnimation:" destination="49Y-Qj-aI4" eventType="touchUpInside" id="rug-C1-MYw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmt-0W-AJ6">
+                                <rect key="frame" x="145" y="222" width="30" height="30"/>
+                                <state key="normal" title="恢复"/>
+                                <connections>
+                                    <action selector="resumeFillAnimation:" destination="49Y-Qj-aI4" eventType="touchUpInside" id="DJH-Cq-CsG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hTY-Kg-EZ0" firstAttribute="centerX" secondItem="cdC-zv-AC8" secondAttribute="centerX" id="838-N0-Ng8"/>
+                            <constraint firstItem="jmt-0W-AJ6" firstAttribute="top" secondItem="hTY-Kg-EZ0" secondAttribute="bottom" constant="32" id="Its-Bf-03Q"/>
+                            <constraint firstItem="hTY-Kg-EZ0" firstAttribute="top" secondItem="6md-7c-gHa" secondAttribute="bottom" constant="24" id="K0f-Gv-Tgz"/>
+                            <constraint firstItem="6md-7c-gHa" firstAttribute="centerX" secondItem="cdC-zv-AC8" secondAttribute="centerX" id="RlB-37-7le"/>
+                            <constraint firstItem="jmt-0W-AJ6" firstAttribute="centerX" secondItem="cdC-zv-AC8" secondAttribute="centerX" id="UEd-ym-o7p"/>
+                            <constraint firstItem="6md-7c-gHa" firstAttribute="top" secondItem="PRc-C0-ady" secondAttribute="bottom" constant="86" id="bnl-x1-Dvs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TzL-rm-odA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-627" y="-672"/>
+        </scene>
+    </scenes>
+</document>
