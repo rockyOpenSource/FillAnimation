@@ -23,6 +23,7 @@
     
     animation = [[MaskAnimation alloc] initWithFrame:CGRectMake(0, 0, 104, 157)];
     [self.view addSubview:animation];
+    
 
 }
 
